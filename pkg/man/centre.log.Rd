@@ -1,36 +1,31 @@
 \name{centre.log}
 \alias{centre.log}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{ ~~function to do ... ~~ }
+
+\title{}
 \description{
-  ~~ A concise (1-5 lines) description of what the function does. ~~
+  takes the log of a real valued matrix, removes any columns where there are
+  less than three finite values, and scales the values to lie between zero and 1.
 }
 \usage{
-centre.log(mat)
+  centre.log(mat)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{mat}{ ~~Describe \code{mat} here~~ }
+  \item{mat}{a numeric n by p matrix, with 0's and possibly with NAs}
 }
 \details{
-  ~~ If necessary, more details than the description above ~~
+  No details
 }
 \value{
-  ~Describe the value returned
-  If it is a LIST, use
-  \item{comp1 }{Description of 'comp1'}
-  \item{comp2 }{Description of 'comp2'}
-  ...
+  a numeric matrix of dimension n by q < p containing values between 0 and 1
 }
-\references{ ~put references to the literature/web site here ~ }
-\author{ ~~who you are~~ }
-\note{ 
+\references{no references}
+\author{Colin Millar}
+\note{
+   intended to be used within the plots.index.corr function
 }
-\seealso{ ~~objects to See Also as \code{\link{help}}, ~~~ }
+\seealso{\code{\link{plots.index.corr}}}
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
 function(mat)
