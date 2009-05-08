@@ -47,7 +47,12 @@ echo $contents; } ?>
 <p>
   This project is designed specifically to host functions developed to plot and
   manipulate fisheries data at ICES WGNSSK and WGNSDS.
-</p>
+<p>
+
+<p>
+  <IMG SRC="catch_correlations.gif" ALT="example plot">
+<p>
+
 
 <p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
 
