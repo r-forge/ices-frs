@@ -19,6 +19,8 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title><?php echo $group_name; ?></title>
 	<link href="<?php echo $themeroot; ?>styles/estilo1.css" rel="stylesheet" type="text/css" />
+      <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+      <link rel="icon" href="favicon.ico" type="image/x-icon" /> 
   </head>
 
 <body>
