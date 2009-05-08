@@ -2,7 +2,7 @@
 \alias{centre.log}
 %- Also NEED an '\alias' for EACH other topic documented here.
 
-\title{}
+\title{logs and rescales a numeric matrix}
 \description{
   takes the log of a real valued matrix, removes any columns where there are
   less than three finite values, and scales the values to lie between zero and 1.
