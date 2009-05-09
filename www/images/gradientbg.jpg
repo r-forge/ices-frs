@@ -1,0 +1,423 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en   "
+xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=UTF-8" />
+
+    <title>R-Forge: mefa - Multivariate data handling: SCM Repository</title>
+    <link href="/themes/rforge/styles/estilo1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+    <!--
+    function help_window(helpurl) {
+        HelpWin = window.open( 'https://r-forge.r-project.org' + helpurl,'HelpWindow','scrollbars=yes,resizable=yes,toolbar=no,height=400,width=400');
+    }
+    // -->
+        
+</script>
+      </head>
+
+  <body text="#000000" link="#0076D5" vlink="#6A76D5" leftmargin="0"
+  topmargin="0" marginwidth="0" marginheight="0">
+    <!--Top fragment-->
+
+    <table border="0" width="100%" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="40">&nbsp;</td>
+	   <!-- jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh -->
+	   <!--                                           Logotipo                                                             -->
+	   <!-- jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh -->
+        <td><a href="/"><img src="/themes/rforge/images/logo.png"
+        alt="R-Forge logo" border="0" /></a></td>
+
+	   <!-- jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh -->
+	   <!--                                           Busqueda                                                           -->
+	   <!-- jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh -->
+        <td nowrap="nowrap">
+          <div align="center">
+            
+		<form action="/search/" method="get">
+		<table border="0" cellpadding="0" cellspacing="0">
+		<tr><td>
+		<div align="center" style="font-size:smaller"><select name="type_of_search"><option value="soft">Software/Group</option>
+<option value="people">People</option>
+</select></div></td><td>&nbsp;</td><td><input type="text" size="12" name="words" value="" /></td><td>&nbsp;</td><td><input type="submit" name="Search" value="Search" /></td></tr></table></form>          </div>
+        </td>
+
+	   <!-- jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh -->
+	   <!--                                  Textos de login/logout                                                   -->
+	   <!-- jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh -->
+        <td align="right" valign="middle" nowrap="nowrap" class="normal">
+          <div align="right">
+            
+            <p><strong><a
+            href="/account/logout.php">Log Out</a></strong><br />
+
+             <strong><a
+            href="/account/">My Account</a></strong></p>
+                      </div>
+        </td>
+
+        <td width="40">&nbsp;</td>
+      </tr>
+    </table>
+
+    
+    <table border="0" width="100%" cellspacing="0" cellpadding="0">
+	   <!-- jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh             -->
+	   <!--  Los tabs. Hemos copiado las funciones necesarias en esta clase para sobreescribirlas  -->
+	   <!-- jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh jh              -->
+      <tr>
+        <td>&nbsp;</td>
+
+        <td colspan="3">
+			<table class="tableTab" width="100%" height="34" border="0" cellpadding="0" cellspacing="0">
+			  <tr align="center" valign="top">
+			  <td width="5%" height="34" class="tabLeft">&nbsp;</td>
+				<td class="normalTab" width="22%" height="34">
+					<table width="100%" height="27" border="0" cellpadding="0" cellspacing="0">
+				        <tr> 
+				          <td align="center" valign="middle" nowrap="nowrap">
+				          	<a href="/">Home</a></td>
+				        </tr>
+				      </table>				
+				</td>
+				<td class="normalTab" width="22%" height="34">
+					<table width="100%" height="27" border="0" cellpadding="0" cellspacing="0">
+				        <tr> 
+				          <td align="center" valign="middle" nowrap="nowrap">
+				          	<a href="/my/">My&nbsp;Page</a></td>
+				        </tr>
+				      </table>				
+				</td>
+				<td class="normalTab" width="22%" height="34">
+					<table width="100%" height="27" border="0" cellpadding="0" cellspacing="0">
+				        <tr> 
+				          <td align="center" valign="middle" nowrap="nowrap">
+				          	<a href="/softwaremap/">Project&nbsp;Tree</a></td>
+				        </tr>
+				      </table>				
+				</td>
+				<td class="selectedTab" width="22%" height="34">
+					<table width="100%" height="27" border="0" cellpadding="0" cellspacing="0">
+				        <tr> 
+				          <td align="center" valign="middle" nowrap="nowrap">
+				          	<a href="/projects/mefa/">mefa - Multivariate data handling</a></td>
+				        </tr>
+				      </table>				
+				</td><td width="5%" height="34" class="tabRight">&nbsp;</td></tr></table></td>
+
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        <!-- Outer body row -->
+        <td><img alt="alt"
+        src="/themes/gforge/images/clear.png" width="10"
+        height="1" /></td>
+
+		
+        <td valign="top" width="99%"
+        colspan="3">
+          <!-- Inner Tabs / Shell -->
+
+          <table border="0" width="100%" cellspacing="0" cellpadding="0">
+            
+            <tr>
+              <td>&nbsp;</td>
+
+              <td>
+
+		<!-- start tabs -->
+
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+					<td valign="top" width="10" background="/themes/gforge/images/theme-bottomtab-end-notselected.png"><img src="/themes/gforge/images/clear.png" height="25" width="10" alt="" /></td><td background="/themes/gforge/images/theme-bottomtab-notselected-bg.png" width="14%" align="center"><a class="tablink" href="/projects/mefa/">Summary</a></td>
+					<td colspan="2" valign="top" width="20" background="/themes/gforge/images/theme-bottomtab-notselected-notselected.png"><img src="/themes/gforge/images/clear.png" height="2" width="20" alt="" /></td><td background="/themes/gforge/images/theme-bottomtab-notselected-bg.png" width="14%" align="center"><a class="tablink" href="/forum/?group_id=121">Forums</a></td>
+					<td colspan="2" valign="top" width="20" background="/themes/gforge/images/theme-bottomtab-notselected-notselected.png"><img src="/themes/gforge/images/clear.png" height="2" width="20" alt="" /></td><td background="/themes/gforge/images/theme-bottomtab-notselected-bg.png" width="14%" align="center"><a class="tablink" href="/tracker/?group_id=121">Tracker</a></td>
+					<td colspan="2" valign="top" width="20" background="/themes/gforge/images/theme-bottomtab-notselected-notselected.png"><img src="/themes/gforge/images/clear.png" height="2" width="20" alt="" /></td><td background="/themes/gforge/images/theme-bottomtab-notselected-bg.png" width="14%" align="center"><a class="tablink" href="/mail/?group_id=121">Lists</a></td>
+					<td colspan="2" valign="top" width="20" background="/themes/gforge/images/theme-bottomtab-notselected-notselected.png"><img src="/themes/gforge/images/clear.png" height="2" width="20" alt="" /></td><td background="/themes/gforge/images/theme-bottomtab-notselected-bg.png" width="14%" align="center"><a class="tablink" href="/news/?group_id=121">News</a></td>
+					<td colspan="2" valign="top" width="20" background="/themes/gforge/images/theme-bottomtab-notselected-selected.png"><img src="/themes/gforge/images/clear.png" height="2" width="20" alt="" /></td><td background="/themes/gforge/images/theme-bottomtab-selected-bg.png" width="14%" align="center"><a class="tabsellink" href="/scm/?group_id=121">SCM</a></td>
+					<td colspan="2" valign="top" width="20" background="/themes/gforge/images/theme-bottomtab-selected-notselected.png"><img src="/themes/gforge/images/clear.png" height="2" width="20" alt="" /></td><td background="/themes/gforge/images/theme-bottomtab-notselected-bg.png" width="14%" align="center"><a class="tablink" href="/R/?group_id=121">	R Packages</a></td>
+					<td valign="top" width="10" background="/themes/gforge/images/theme-bottomtab-notselected-end.png"><img src="/themes/gforge/images/clear.png" height="2" width="10" alt="" /></td></tr><tr><td colspan="15" height="1" bgcolor="#909090"><img src="/themes/gforge/images/clear.png" height="1" width="10" /></td><td colspan="3" height="1" bgcolor="white"><img src="/themes/gforge/images/clear.png" height="1" width="10" /></td><td colspan="3" height="1" bgcolor="#909090"><img src="/themes/gforge/images/clear.png" height="1" width="10" /></td></tr>
+		</table> 
+
+		<!-- end tabs -->
+</td>
+
+              <td>&nbsp;</td>
+            </tr>
+                        <!--  Quitamos estas im�genes del anterior theme (rincones superiores
+                  debajo de la barra de men�). En el de javaHispano no tienen
+                  que salir
+            -->
+            
+            <!--
+            <tr>
+              <td align="LEFT"
+              width="10"><img alt="alt"
+              src="/themes/gforge/images/tabs/topleft-inner.png"
+              height="9" width="9" /></td>
+
+              <td><img alt="alt"
+              src="/themes/gforge/images/clear.png" width="1"
+              height="1" /></td>
+
+              <td align="RIGHT"
+              width="10"><img alt="alt"
+              src="/themes/gforge/images/tabs/topright-inner.png"
+              height="9" width="9" /></td>
+            </tr>
+            -->
+            
+            <tr>
+              <td><img alt="alt"
+              src="/themes/gforge/images/clear.png" width="10"
+              height="1" /></td>
+
+              <td valign="TOP" width="99%"><link href="/plugins/scmsvn/styles.css" rel="stylesheet" TYPE="text/css"><h1>mefa: www/images/gradientbg.jpg</h1>
+
+<hr noshade>
+
+No default branch
+
+<br>
+
+
+
+ 
+
+
+<hr noshade>
+<table width="100%" border="0" cellspacing="1" cellpadding="2">
+<thead>
+<tr>
+<th align="left" class="vc_header">Revision</th>
+
+<th align="left" class="vc_header">Tasks</th>
+<th align="left" class="vc_header">Diffs</th>
+
+
+<th align="left" class="vc_header_sort">Age</th>
+<th align="left" class="vc_header">Author</th>
+</tr>
+</thead>
+
+<tbody>
+<tr valign="top" class="vc_row_even">
+
+<td rowspan="2">
+<a href="/plugins/scmsvn/viewcvs.php?rev=37&root=mefa&view=rev"><b>37</b></a>
+<a name="rev37"></a>
+</td>
+
+<td>
+
+<a href="/plugins/scmsvn/viewcvs.php/www/images/gradientbg.jpg?rev=37&root=mefa&view=markup"><b>View</b></a><br>
+<a href="/plugins/scmsvn/viewcvs.php/*checkout*/www/images/gradientbg.jpg?rev=37&root=mefa"><b>Download</b></a><br>
+<a href="/plugins/scmsvn/viewcvs.php/*checkout*/www/images/gradientbg.jpg?content-type=text%2Fplain&rev=37&root=mefa"><b>As text</b></a><br>
+
+
+</td>
+<td>
+
+
+
+<a href="/plugins/scmsvn/viewcvs.php/www/images/gradientbg.jpg?rev=37&root=mefa&r1=37&view=log"><b>[select&nbsp;for&nbsp;diffs]</b></a><br>
+
+
+
+
+</td>
+
+
+
+<td>
+
+Added
+
+13 months, 3 weeks ago<br><i>Thu Mar 13 12:15:43 2008 UTC</i>
+
+</td>
+
+<td>
+psolymos
+</td>
+</tr>
+<tr class="vc_row_even">
+<td colspan=5>
+
+
+
+<b>File length: </b>337 byte(s)<br>
+
+
+
+<b>Log: </b><pre class="vc_log">WWW added
+</pre>
+</td>
+</tr>
+</tbody>
+
+</table>
+ 
+
+
+
+<a name="diff"></a>
+<hr noshade>
+This form allows you to request diffs between any two revisions of
+a file. You may select a symbolic revision name using the selection
+box or you may type in a numeric name using the type-in text box.
+<p>
+<form method="get" action="/plugins/scmsvn/viewcvs.php/www/images/gradientbg.jpg" name="diff_select">
+<input type="hidden" name="root" value="mefa" />
+<table border="0" cellpadding="2" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+<td>
+Diffs between
+
+<input type="hidden" name="r1" value="text" />
+
+<input type="TEXT" size="12" name="tr1" value="37"
+>
+and
+
+<input type="hidden" name="r2" value="text" />
+
+<input type="TEXT" size="12" name="tr2" value="37"
+>
+</td>
+</tr>
+<tr>
+<td><input type="checkbox" name="makepatch" id="makepatch" value="1"></td>
+<td><label for="makepatch">Generate output suitable for use with a patch
+program</label></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>
+Type of Diff should be a
+<select name="diff_format" onchange="submit()">
+<option value="h" selected>Colored Diff</option>
+<option value="l" >Long Colored Diff</option>
+<option value="u" >Unidiff</option>
+<option value="c" >Context Diff</option>
+<option value="s" >Side by Side</option>
+</select>
+<input type="submit" value=" Get Diffs "></form>
+</td>
+</tr>
+</table>
+
+
+
+
+<hr noshade>
+<a name=logsort></a>
+<form method=get action="/plugins/scmsvn/viewcvs.php/www/images/gradientbg.jpg">
+<input type="hidden" name="root" value="mefa" />
+Sort log by:
+<select name="logsort" onchange="submit()">
+<option value="cvs" >Not sorted</option>
+<option value="date" selected>Commit date</option>
+<option value="rev" >Revision</option>
+</select>
+<input type=submit value=" Sort ">
+</form>
+
+
+<hr noshade>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td align="left">
+<address><a href="mailto:webmaster@r-forge.wu-wien.ac.at">CVS/SVN Admin</a></address><br />
+Powered by <a href="http://viewcvs.sourceforge.net/">ViewCVS 1.0-dev</a>
+</td>
+<td align="right">
+<img src="/doc/viewcvs/images/logo.png" alt="(Powered by ViewCVS)" border="0"
+width="128" height="48" /><br />
+<h3><a target="_blank" href="/plugins/scmsvn/viewcvs/help_logtable.html">ViewCVS and CVS/SVN Help</a></h3>
+</td>
+</tr>
+</table>
+<!--
+</body>
+</html>
+-->
+<!-- end main body row -->
+              </td>
+
+              <td width="10" bgcolor=""><img
+              alt="alt" src="/themes/gforge/images/clear.png" width="2"
+              height="1" /></td>
+            </tr>
+
+            <tr>
+              <td align="LEFT" bgcolor="#fafafa"
+              width="10"><img alt="alt"
+              src="/themes/gforge/images/tabs/bottomleft-inner.png"
+              height="11" width="11" /></td>
+
+              <td bgcolor=""><img alt="alt"
+              src="/themes/gforge/images/clear.png" width="1"
+              height="1" /></td>
+
+              <td align="RIGHT" bgcolor="#fafafa"
+              width="10"><img alt="alt"
+              src="/themes/gforge/images/tabs/bottomright-inner.png"
+              height="11" width="11" /></td>
+            </tr>
+          </table>
+          <!-- end inner body row -->
+        </td>
+
+        <td width="10"><img
+        alt="alt" src="/themes/gforge/images/clear.png" width="2"
+        height="1" /></td>
+      </tr>
+
+    </table>
+    
+    <!-- ************************** Banners ******************************** -->
+    <br />
+    <hr />
+
+    <table border="0" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+      <td>
+    Thanks to:
+    <table width="100%" cellpadding="4" cellspacing="4" border="0">
+    <tr><td>
+    <a href="http://www.wu-wien.ac.at">
+    <img src="/themes/rforge/images/banners/wulogo_web_small.jpg" width="68" height="65" border="0" alt="Vienna University of Economics and Business Administration" /> 
+    </a>
+    </td>
+    <td>
+    <a href="http://www.stat.wisc.edu/">
+    <img src="/themes/rforge/images/banners/uwlogo-crest.jpg" border="0" alt="University of Wisconsin - Madison" /> 
+    </a>
+    </td>
+    <td>
+    <a href="http://gforge.org/"><img src="/images/pow-gforge.png" alt="Powered By GForge Collaborative Develo
+pment Environment" border="0" /></a>
+    </td>
+    <td>
+    <a href="http://www.javahispano.org">
+    <img src="/themes/rforge/images/banners/logojH_small.jpg" width="180" height="40" border="0" alt="JavaHispano" />
+    </a> 
+    </td>
+    </tr>
+    </table>
+    
+    </td>
+    </tr>
+    </table>
+
+  </body>
+</html>
+    
+    
