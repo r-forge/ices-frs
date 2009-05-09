@@ -1,8 +1,8 @@
-\name{icesfrs-package}
-\alias{icesfrs-package}
-\alias{icesfrs}
-\docType{icesfrs}
-\title{Fisheries Research Services, ICES Stock Assessment Scripts}
+\name{FRSstats-package}
+\alias{FRSstats-package}
+\alias{FRSstats}
+\docType{FRSstats}
+\title{Fisheries Research Services Statistics Group R Package}
 \description{
 The point in this package is to combine a set of functions to help out in a
 stock assessment working group
