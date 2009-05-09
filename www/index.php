@@ -2,7 +2,7 @@
 <html>
 <head>
 
-<meta name="description" content="ices frs" />
+<meta name="description" content="FRS Stats" />
 <meta name="keywords" content="R, statistics, graphics" />
 <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
 <meta name="Distribution" content="Global" />
@@ -13,7 +13,7 @@
 
 <link rel="stylesheet" href="images/TechJunkie.css" type="text/css" />
 
-<title>ices frs</title>
+<title>FRS Stats</title>
 
 </head>
 
