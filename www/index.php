@@ -24,8 +24,8 @@
 	<!--header -->
 	<div id="header">
 
-		<h1 id="logo-text"><a href="index.php" title="">techjunkie</a></h1>
-		<p id="slogan">put your site slogan here...</p>
+		<h1 id="logo-text"><a href="index.php" title="">FRS Stats</a></h1>
+		<p id="slogan">R package of FRS statistics group plotting functions</p>
 
 		<form id="quick-search" action="index.php" method="get" >
 			<p>
@@ -42,11 +42,11 @@
 	<div  id="nav">
 		<ul>
 			<li id="current"><a href="index.php">Home</a></li>
-			<li><a href="style.html">Style Demo</a></li>
-			<li><a href="index.php">Downloads</a></li>
-			<li><a href="index.php">Services</a></li>
-			<li><a href="index.php">Support</a></li>
+			<li><a href="http://cran.r-project.org/">CRAN</a></li>
+			<li><a href="http://r-forge.r-project.org/">R-Forge</a></li>
+			<li><a href="http://www.marlab.ac.uk/">FRS Homepage</a></li>
 			<li><a href="index.php">About</a></li>
+			<li><a href="index.php">Contact</a></li>
 		</ul>
 	<!-- navigation ends-->
 	</div>
@@ -56,10 +56,8 @@
 
 		<div id="main">
 
-			<a name="TemplateInfo"></a>
-			<h2><a href="index.php" title="">Template Info</a></h2>
-
-			<p class="post-info">Posted by <a href="index.php">erwin</a> | Filed under <a href="index.php">templates</a>, <a href="index.php">internet</a>  </p>
+			<a name="Welcome"></a>
+			<h2><a href="index.php" title="">Welcome to the FRS Stats project on R-Forge!</a></h2>
 
 			<p><strong>TechJunkie 1.0</strong> is a free, W3C-compliant, CSS-based website template
 			by <strong><a href="http://www.styleshout.com/">styleshout.com</a></strong>. This work is
@@ -74,16 +72,11 @@
 
 			<p>Good luck and I hope you find my free templates useful!</p>
 
-			<p class="post-footer">
-			<a href="index.php" class="readmore">Read more</a> |
-			<a href="index.php" class="comments">Comments (7)</a> |
-			<span class="date">May 20, 2007</span>
-			</p>
 
-			<h2><a href="index.php">Lorem Ipsum Dolor Sit Amet</a></h2>
+			<h2><a href="index.php">plot survey index correlations</a></h2>
 
-			<h3>Aliquam Risus Justo</h3>
-			<p><a href="http://getfirefox.com/"><img src="images/firefox-gray.jpg" width="100" height="120" alt="firefox" class="float-left" /></a>
+			<h3>Plots - say what it does</h3>
+			<p><a href="http://getfirefox.com/"><img src="images/catch_correlations.png" width="100" height="120" alt="catch correlations" class="float-left" /></a>
 			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.
 			Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu
 			posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum
@@ -95,10 +88,8 @@
 			</p>
 
 			<blockquote>
-			<p>When I have fully decided that a result
-			is worth getting I go ahead of it and
-			make trial after trial until it comes.</p>
-			<p class="align-right"> - Thomas A. Edison</p>
+			<p>Something interesting form someone equally interesting</p>
+			<p class="align-right"> - Jimmy Beaver</p>
 			</blockquote>
 
 			<p>
@@ -113,9 +104,9 @@
 			semper a, massa. Suspendisse potenti. Morbi a nisl. Nunc euismod elit non lectus.
 			</p>
 
-			<h2><a href="index.php">Aliquam Risus Justo</a></h2>
+			<h2><a href="index.php">Another plot</a></h2>
 
-			<h3>Lorem Ipsum Dolor Sit Amet</h3>
+			<h3>Say what this one does</h3>
 			<p><a href="http://getfirefox.com/"><img src="images/firefox-gray.jpg" width="100" height="120" alt="firefox" class="float-right" /></a>
 			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.
 			Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu
@@ -136,28 +127,7 @@
 			<ul class="sidemenu">
 				<li><a href="index.php">Home</a></li>
 				<li><a href="index.php#TemplateInfo">TemplateInfo</a></li>
-				<li><a href="style.html">Style Demo</a></li>
 				<li><a href="http://www.styleshout.com/">More Free Templates</a></li>
-				<li><a href="http://www.4templates.com/?aff=ealigam">Premium Templates</a></li>
-			</ul>
-
-			<h3>Links</h3>
-			<ul class="sidemenu">
-				<li><a href="http://www.freephotos.se/">FreePhotos.se</a></li>
-				<li><a href="http://www.alistapart.com">Alistapart</a></li>
-				<li><a href="http://www.cssremix.com">CSS Remix</a></li>
-				<li><a href="http://www.cssmania.com/">CSS Mania</a></li>
-			</ul>
-
-			<h3>Sponsors</h3>
-			<ul class="sidemenu">
-				<li><a href="http://themeforest.net?ref=ealigam">ThemeForest <br /><span>Your Choice for Site Templates &amp; Wordpress Themes</span></a></li>
-				<li><a href="http://www.4templates.com/?aff=ealigam">4templates <br /><span>Low Cost Hi-Quality Templates</span></a></li>
-				<li><a href="http://store.templatemonster.com?aff=ealigam">TemplateMonster <br /><span>Delivering the Best Templates on the Net!</span></a></li>
-				<li><a href="http://tinyurl.com/3cgv2m">Text Link Ads <br /><span>Monetized your website</span></a></li>
-				<li><a href="http://www.fotolia.com/partner/114283">Fotolia <br /><span>Free stock images or from $1</span></a> </li>
-				<li><a href="http://www.dreamstime.com/res338619">Dreamstime <br /><span>Lowest Price for High Quality Stock Photos</span></a></li>
-				<li><a href="http://www.dreamhost.com/r.cgi?287326">Dreamhost <br /><span>Premium webhosting</span></a></li>
 			</ul>
 
 			<h3>Search Box</h3>
@@ -228,7 +198,7 @@
 
 		<div id="footer-bottom">
 			<p>
-			&copy; 2006 <strong>Your Company</strong> |
+			2009 <strong>Colin Millar</strong> |
 			Design by: <a href="http://www.styleshout.com/">styleshout</a> |
 			Valid <a href="http://validator.w3.org/check?uri=referer">XHTML</a> |
 			<a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
