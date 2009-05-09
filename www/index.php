@@ -1,63 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
 
-<!-- This is the project specific website template -->
-<!-- It can be changed as liked or replaced by other content -->
+<meta name="Description" content="mefa project" />
+<meta name="Keywords" content="R, statistics, ecology, biodiversity, multivariate, count data" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="Distribution" content="Global" />
+<meta name="Author" content="Peter Solymos" />
+<meta name="Robots" content="index,follow" />
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="images/PixelGreen.css" type="text/css" />
 
-<?php
+<title>mefa project</title>
 
-$domain=ereg_replace('[^\.]*\.(.*)$','\1',$_SERVER['HTTP_HOST']);
-$group_name=ereg_replace('([^\.]*)\..*$','\1',$_SERVER['HTTP_HOST']);
-$themeroot='http://r-forge.r-project.org/themes/rforge/';
+</head>
 
-echo '<?xml version="1.0" encoding="UTF-8"?>';
-?>
-<!DOCTYPE html
-	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en   ">
+<FRAMESET rows="100, 1*">
+<!--<FRAME src="logo.html" name="logo" frameborder=0>-->
+<FRAME src="navigation.html" name="navigation" frameborder=0>
+<FRAME src="home.html" name="main" frameborder=0>
+<noframes>
+<h1>The mefa project for multivariate count data handling</h1>
 
-  <head>
-	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	  <title><?php echo $group_name; ?></title>
-	  <link href="<?php echo $themeroot; ?>styles/estilo1.css" rel="stylesheet" type="text/css" />
+Your browser seems not to support frames,
+here is the <A href="navigation.html">navigation page</A> of the mefa Project's
+website.
 
-    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  </head>
-
-<body>
-
-<!-- R-Forge Logo -->
-<table border="0" width="100%" cellspacing="0" cellpadding="0">
-<tr><td>
-<a href="/"><img src="<?php echo $themeroot; ?>/images/logo.png" border="0" alt="R-Forge Logo" /> </a> </td> </tr>
-</table>
-
-
-<!-- get project title  -->
-<!-- own website starts here, the following may be changed as you like -->
-
-<?php if ($handle=fopen('http://'.$domain.'/export/projtitl.php?group_name='.$group_name,'r')){
-$contents = '';
-while (!feof($handle)) {
-	$contents .= fread($handle, 8192);
-}
-fclose($handle);
-echo $contents; } ?>
-
-
-<!-- end of project description -->
-
-<p>
-  This project is designed specifically to host functions developed to plot and
-  manipulate fisheries data at ICES WGNSSK and WGNSDS.
-<p>
-
-<p>
-  <IMG SRC="catch_correlations.gif" ALT="example plot">
-<p>
-
-
-<p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
-
-</body>
-</html>
+</noframes>
+</FRAMESET>
