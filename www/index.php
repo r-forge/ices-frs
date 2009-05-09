@@ -139,16 +139,15 @@
 			</form>
 
 			<h3>Wise Words</h3>
-			<p>&quot;When I have fully decided that a result
-			is worth getting I go ahead of it and
-			make trial after trial until it comes.&quot; </p>
+			<p>&quot;Good judgement comes from experience; and experience comes from
+               bad judgement.&quot; </p>
 
-			<p class="align-right">- Thomas A. Edison</p>
+			<p class="align-right">- Mark Twain</p>
 
 			<h3>Support Styleshout</h3>
-			<p>If you are interested in supporting my work and would like to contribute, you are
+			<p>If you are interested in supporting the work of Styleshout and would like to contribute, you are
 			welcome to make a small donation through the
-			<a href="http://www.styleshout.com/">donate link</a> on my website - it will
+			<a href="http://www.styleshout.com/">donate link</a> on the Styleshout website - it will
 			be a great help and will surely be appreciated.</p>
 
 		<!-- sidebar ends -->
@@ -162,35 +161,23 @@
 
 		<div id="footer-columns">
 			<div class="col3">
-				<h3>Tincidunt</h3>
+				<h3>Statistics</h3>
 				<ul>
-					<li><a href="index.php">consequat molestie</a></li>
-					<li><a href="index.php">sem justo</a></li>
-					<li><a href="index.php">semper</a></li>
-					<li><a href="index.php">magna sed purus</a></li>
-					<li><a href="index.php">tincidunt</a></li>
+					<li><a href="index.php">none yet!</a></li>
 				</ul>
 			</div>
 
 			<div class="col3-center">
-				<h3>Sed purus</h3>
+				<h3>Graphics</h3>
 				<ul>
-					<li><a href="index.php">consequat molestie</a></li>
-					<li><a href="index.php">sem justo</a></li>
-					<li><a href="index.php">semper</a></li>
-					<li><a href="index.php">magna sed purus</a></li>
-					<li><a href="index.php">tincidunt</a></li>
+					<li><a href="index.php">plot survey index correlations</a></li>
 				</ul>
 			</div>
 
 			<div class="col3">
-				<h3>Praesent</h3>
+				<h3>Fun Stuff</h3>
 				<ul>
-					<li><a href="index.php">consequat molestie</a></li>
-					<li><a href="index.php">sem justo</a></li>
-					<li><a href="index.php">semper</a></li>
-					<li><a href="index.php">magna sed purus</a></li>
-					<li><a href="index.php">tincidunt</a></li>
+					<li><a href="index.php">none yet</a></li>
 				</ul>
 			</div>
 		<!-- footer-columns ends -->
