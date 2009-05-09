@@ -59,18 +59,7 @@
 			<a name="Welcome"></a>
 			<h2><a href="index.php" title="">Welcome to the FRS Stats project on R-Forge!</a></h2>
 
-			<p><strong>TechJunkie 1.0</strong> is a free, W3C-compliant, CSS-based website template
-			by <strong><a href="http://www.styleshout.com/">styleshout.com</a></strong>. This work is
-			distributed under the <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">
-			Creative Commons Attribution 2.5  License</a>, which means that you are free to
-			use and modify it for any purpose. All I ask is that you include a link back to
-			<a href="http://www.styleshout.com/">my website</a> in your credits.</p>
-
-			<p>For more free designs, you can visit
-			<a href="http://www.styleshout.com/">my website</a> to see
-			my other works.</p>
-
-			<p>Good luck and I hope you find my free templates useful!</p>
+			<p>Some information on whatwe are trying to achieve witht this package...</p>
 
 
 			<h2><a href="index.php">plot survey index correlations</a></h2>
@@ -123,11 +112,11 @@
 
 		<div id="sidebar">
 
-			<h3>Sidebar Menu</h3>
+			<h3>FRS Stats Links</h3>
 			<ul class="sidemenu">
 				<li><a href="index.php">Home</a></li>
-				<li><a href="index.php#TemplateInfo">TemplateInfo</a></li>
-				<li><a href="http://www.styleshout.com/">More Free Templates</a></li>
+				<li><a href="http://r-forge.r-project.org/projects/ices-frs/">FRS Stats R-Forge site</a></li>
+				<li><a href="http://r-forge.r-project.org/plugins/scmsvn/viewcvs.php/?root=ices-frs">Browse FRS Stats Subversion Repository</a></li>
 			</ul>
 
 			<h3>Search Box</h3>
@@ -145,7 +134,9 @@
 			<p class="align-right">- Mark Twain</p>
 
 			<h3>Support Styleshout</h3>
-			<p>If you are interested in supporting the work of Styleshout and would like to contribute, you are
+
+      <p>This page was based on a design by <a href="http://www.styleshout.com/">Styleshout</a>.
+      If you are interested in supporting the work of Styleshout and would like to contribute, you are
 			welcome to make a small donation through the
 			<a href="http://www.styleshout.com/">donate link</a> on the Styleshout website - it will
 			be a great help and will surely be appreciated.</p>
