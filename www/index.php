@@ -24,10 +24,10 @@
 	<!--header -->
 	<div id="header">
 
-		<h1 id="logo-text"><a href="index.html" title="">techjunkie</a></h1>
+		<h1 id="logo-text"><a href="index.php" title="">techjunkie</a></h1>
 		<p id="slogan">put your site slogan here...</p>
 
-		<form id="quick-search" action="index.html" method="get" >
+		<form id="quick-search" action="index.php" method="get" >
 			<p>
 			<label for="qsearch">Search:</label>
 			<input class="tbox" id="qsearch" type="text" name="qsearch" value="Search..." title="Start typing and hit ENTER" />
@@ -41,12 +41,12 @@
 	<!-- navigation starts-->
 	<div  id="nav">
 		<ul>
-			<li id="current"><a href="index.html">Home</a></li>
+			<li id="current"><a href="index.php">Home</a></li>
 			<li><a href="style.html">Style Demo</a></li>
-			<li><a href="index.html">Downloads</a></li>
-			<li><a href="index.html">Services</a></li>
-			<li><a href="index.html">Support</a></li>
-			<li><a href="index.html">About</a></li>
+			<li><a href="index.php">Downloads</a></li>
+			<li><a href="index.php">Services</a></li>
+			<li><a href="index.php">Support</a></li>
+			<li><a href="index.php">About</a></li>
 		</ul>
 	<!-- navigation ends-->
 	</div>
@@ -57,9 +57,9 @@
 		<div id="main">
 
 			<a name="TemplateInfo"></a>
-			<h2><a href="index.html" title="">Template Info</a></h2>
+			<h2><a href="index.php" title="">Template Info</a></h2>
 
-			<p class="post-info">Posted by <a href="index.html">erwin</a> | Filed under <a href="index.html">templates</a>, <a href="index.html">internet</a>  </p>
+			<p class="post-info">Posted by <a href="index.php">erwin</a> | Filed under <a href="index.php">templates</a>, <a href="index.php">internet</a>  </p>
 
 			<p><strong>TechJunkie 1.0</strong> is a free, W3C-compliant, CSS-based website template
 			by <strong><a href="http://www.styleshout.com/">styleshout.com</a></strong>. This work is
@@ -75,12 +75,12 @@
 			<p>Good luck and I hope you find my free templates useful!</p>
 
 			<p class="post-footer">
-			<a href="index.html" class="readmore">Read more</a> |
-			<a href="index.html" class="comments">Comments (7)</a> |
+			<a href="index.php" class="readmore">Read more</a> |
+			<a href="index.php" class="comments">Comments (7)</a> |
 			<span class="date">May 20, 2007</span>
 			</p>
 
-			<h2><a href="index.html">Lorem Ipsum Dolor Sit Amet</a></h2>
+			<h2><a href="index.php">Lorem Ipsum Dolor Sit Amet</a></h2>
 
 			<h3>Aliquam Risus Justo</h3>
 			<p><a href="http://getfirefox.com/"><img src="images/firefox-gray.jpg" width="100" height="120" alt="firefox" class="float-left" /></a>
@@ -113,7 +113,7 @@
 			semper a, massa. Suspendisse potenti. Morbi a nisl. Nunc euismod elit non lectus.
 			</p>
 
-			<h2><a href="index.html">Aliquam Risus Justo</a></h2>
+			<h2><a href="index.php">Aliquam Risus Justo</a></h2>
 
 			<h3>Lorem Ipsum Dolor Sit Amet</h3>
 			<p><a href="http://getfirefox.com/"><img src="images/firefox-gray.jpg" width="100" height="120" alt="firefox" class="float-right" /></a>
@@ -134,8 +134,8 @@
 
 			<h3>Sidebar Menu</h3>
 			<ul class="sidemenu">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="index.html#TemplateInfo">TemplateInfo</a></li>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="index.php#TemplateInfo">TemplateInfo</a></li>
 				<li><a href="style.html">Style Demo</a></li>
 				<li><a href="http://www.styleshout.com/">More Free Templates</a></li>
 				<li><a href="http://www.4templates.com/?aff=ealigam">Premium Templates</a></li>
@@ -161,7 +161,7 @@
 			</ul>
 
 			<h3>Search Box</h3>
-			<form class="searchform" action="index.html" method="get">
+			<form class="searchform" action="index.php" method="get">
 				<p>
 				<input name="search_query" class="textbox" type="text" />
   				<input name="search" class="button" value="Search" type="submit" />
@@ -194,33 +194,33 @@
 			<div class="col3">
 				<h3>Tincidunt</h3>
 				<ul>
-					<li><a href="index.html">consequat molestie</a></li>
-					<li><a href="index.html">sem justo</a></li>
-					<li><a href="index.html">semper</a></li>
-					<li><a href="index.html">magna sed purus</a></li>
-					<li><a href="index.html">tincidunt</a></li>
+					<li><a href="index.php">consequat molestie</a></li>
+					<li><a href="index.php">sem justo</a></li>
+					<li><a href="index.php">semper</a></li>
+					<li><a href="index.php">magna sed purus</a></li>
+					<li><a href="index.php">tincidunt</a></li>
 				</ul>
 			</div>
 
 			<div class="col3-center">
 				<h3>Sed purus</h3>
 				<ul>
-					<li><a href="index.html">consequat molestie</a></li>
-					<li><a href="index.html">sem justo</a></li>
-					<li><a href="index.html">semper</a></li>
-					<li><a href="index.html">magna sed purus</a></li>
-					<li><a href="index.html">tincidunt</a></li>
+					<li><a href="index.php">consequat molestie</a></li>
+					<li><a href="index.php">sem justo</a></li>
+					<li><a href="index.php">semper</a></li>
+					<li><a href="index.php">magna sed purus</a></li>
+					<li><a href="index.php">tincidunt</a></li>
 				</ul>
 			</div>
 
 			<div class="col3">
 				<h3>Praesent</h3>
 				<ul>
-					<li><a href="index.html">consequat molestie</a></li>
-					<li><a href="index.html">sem justo</a></li>
-					<li><a href="index.html">semper</a></li>
-					<li><a href="index.html">magna sed purus</a></li>
-					<li><a href="index.html">tincidunt</a></li>
+					<li><a href="index.php">consequat molestie</a></li>
+					<li><a href="index.php">sem justo</a></li>
+					<li><a href="index.php">semper</a></li>
+					<li><a href="index.php">magna sed purus</a></li>
+					<li><a href="index.php">tincidunt</a></li>
 				</ul>
 			</div>
 		<!-- footer-columns ends -->
@@ -235,9 +235,9 @@
 
    		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-			<a href="index.html">Home</a>&nbsp;|&nbsp;
-   		<a href="index.html">Sitemap</a>&nbsp;|&nbsp;
-	   	<a href="index.html">RSS Feed</a>
+			<a href="index.php">Home</a>&nbsp;|&nbsp;
+   		<a href="index.php">Sitemap</a>&nbsp;|&nbsp;
+	   	<a href="index.php">RSS Feed</a>
    		</p>
 		</div>
 
